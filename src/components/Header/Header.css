@@ -1,0 +1,40 @@
+:root {
+  --main-font: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --main-color: rgba(0, 0, 0, 0.84);
+  --hover-color: gray;
+}
+
+/* body, p, a have margins and paddings for default, setting thos up like this allow me to get rid of them */
+body,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  padding-bottom: 160px;
+}
+
+.logo p {
+  font-size: 35px;
+}
+
+.nav a {
+  margin-left: 40px;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: gray;
+}
