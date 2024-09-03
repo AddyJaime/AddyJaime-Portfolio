@@ -1,0 +1,77 @@
+.home-section {
+  height: 100vh;
+  flex-direction: column;
+  padding-left: 10rem;
+  display: flex;
+}
+
+.home-content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: -3rem;
+}
+
+.home-content h2 {
+  font-size: 4rem;
+  margin-bottom: -1rem;
+  color: #0b8e4f;
+}
+
+.home-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: -1rem;
+}
+
+.home-content p {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.social-icons .ig-icon {
+  font-size: 80px;
+  color: #e1306c;
+}
+
+.social-icons .github-icon {
+  font-size: 80px;
+}
+
+.social-icons .linkedin-icon {
+  font-size: 80px;
+  color: rgba(0, 0, 255, 0.696);
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.buttons button {
+  padding: 15px 15px;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.buttons button:first-child {
+  background-color: black;
+  color: white;
+}
+.buttons button:last-child {
+  background-color: #0b8e4f;
+  color: white;
+}

@@ -1,13 +1,16 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import HomePage from "./pages/HomePage/HomePage";
-
+import NavBar from "./components/Header/NavBar";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
 const App = () => {
   return (
-    <>
-      <Header />
-      <HomePage />
-    </>
+    <div className="App">
+      <NavBar />
+      <Home />
+      <About />
+      <Projects />
+    </div>
   );
 };
 
