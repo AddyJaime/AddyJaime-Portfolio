@@ -1,31 +1,52 @@
 .projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  /* border: 2px solid red; */
   height: 100vh;
+  /* background-color: red; */
+  margin-top: 140px;
 }
 
 .projects-grid {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
+  width: 100%;
+  align-items: center;
+  /* background-color: rgba(0, 0, 255, 0.529); */
 }
 
 .project-card {
-  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 500px;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
   overflow: hidden;
-  transition: transform 0.1s ease;
+  /* transition: transform 0.1s ease; */
+
+  /* background-color: red; */
 }
 .project-card:hover {
-  transform: translateY(-20px);
+  /* transform: translateY(-20px); */
 }
 
 .project-image {
-  width: 100%;
+  display: block;
+
+  width: 60%;
   height: auto;
   border-bottom: 1px solid #ddd;
+}
+
+.project-info {
+  width: 50%;
+  padding: 20px;
 }
 
 .project-info h3 {
@@ -33,9 +54,13 @@
   font-size: 30px;
 }
 
+/* .btn-container .github-btn {
+  padding-left: 20px;
+} */
+
 .projects-buttons {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex; */
+  /* justify-content: space-around; */
 }
 
 .btn {
@@ -43,6 +68,10 @@
   padding: 10px 10px;
   font-size: 30px;
   transition: background-color 0.3s ease;
+}
+
+.projects-section h3 {
+  font-size: 27.2px;
 }
 
 .github-btn {

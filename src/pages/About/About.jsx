@@ -28,7 +28,7 @@ const About = () => {
       </div>
       <div className="about-content">
         <div className="about-skills">
-          <h3>My Skills </h3>
+          <h3>Tech Stack </h3>
           <div className="icons">
             <div className="icon-item">
               <img src={ReactJsIcon} alt="" />
