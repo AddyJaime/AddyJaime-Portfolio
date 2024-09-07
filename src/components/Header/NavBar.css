@@ -1,29 +1,30 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
   width: 100%;
-  background-color: white;
+  height: 80px;
+  background-color: #264653;
+  padding-left: 230px;
 }
 
 .navbar-name-title > h1 {
   font-size: 27.2px;
-  color: black;
-  padding-left: 30px;
+  color: white;
 }
 
 .navebar-links a {
-  margin: 25px;
-  font-size: 27.2px;
+  padding: 20px;
+  font-size: 1rem;
   text-decoration: none;
-  color: #2d2e32;
+  color: white;
   font-weight: 600;
 }
 
 .navebar-links a:hover {
-  color: rgba(0, 0, 255, 0.61);
+  color: #e9c46a;
   text-decoration: underline;
 }

@@ -1,6 +1,7 @@
 .about-section {
-  margin-top: -80px;
   height: 100vh;
+  text-align: center;
+  scroll-margin-top: 130px;
 }
 
 .about-content {
@@ -8,11 +9,19 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  text-align: center;
 }
 
-.about-me-title h2 {
-  font-size: 27.2px;
-  padding-left: 5rem;
+.about-me-title h1 {
+  font-size: 20px;
+  color: #2d2e329e;
+  font-family: Arial, sans-serif;
+}
+
+.about-me-title p {
+  color: black;
+  font-size: 43px;
+  font-weight: bold;
 }
 
 .about-skills {
@@ -62,5 +71,5 @@ p {
 }
 
 .icon-item img {
-  width: 70px;
+  width: 64px;
 }

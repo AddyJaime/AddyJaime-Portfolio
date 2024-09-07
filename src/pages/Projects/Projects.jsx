@@ -10,7 +10,7 @@ const ProjectCard = ({
   liveDemoUrl,
 }) => {
   return (
-    <div className="project-card">
+    <div id="projects" className="project-card">
       <img src={imageUrl} alt={title} className="project-image" />
 
       <div className="project-info">
@@ -23,7 +23,7 @@ const ProjectCard = ({
               <FontAwesomeIcon className="github-icon" icon={faGithub} />
             </a>
             <a href={liveDemoUrl} className="btn demo-btn">
-              LiveDemo
+              Live Site
             </a>
           </div>
         </div>
@@ -60,9 +60,10 @@ const Projects = () => {
       liveDemoUrl: "https://your-live-demo2.com",
     },
     {
-      title: "Project Three",
-      description: "Available now on the app",
-      imageUrl: "url_to_image3",
+      title: "DicciApp",
+      description:
+        "DicciApp is a dictionary application that lets you easily find, add, and remove your favorite words. Whether you love words or just want to learn more. ",
+      imageUrl: "../../../public/bc23e5a4-dcf1-4f50-94d9-aa143a840cc7.jpg",
       githubUrl: "https://github.com/AddyJaime/DicciApp",
       liveDemoUrl: "https://your-live-demo3.com",
     },
@@ -70,7 +71,9 @@ const Projects = () => {
 
   return (
     <div className="projects-section">
-      <h3>Portafolio</h3>
+      <div className="portafolio-name">
+        <h1>Portafolio</h1>
+      </div>
       <div className="projects-grid">
         {projectData.map((project, index) => (
           <ProjectCard

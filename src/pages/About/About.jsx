@@ -22,9 +22,10 @@ import {
 
 const About = () => {
   return (
-    <div className="about-section">
+    <div id="about" className="about-section">
       <div className="about-me-title">
-        <h2>About Me </h2>
+        <h1>Get To Know More</h1>
+        <p>About me</p>
       </div>
       <div className="about-content">
         <div className="about-skills">

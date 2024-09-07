@@ -10,7 +10,7 @@ import imageprof from "../../assets/images/profile-pic.jpeg";
 
 const Home = () => {
   return (
-    <section className="home-section">
+    <section id="home" className="home-section">
       <div className="home-content">
         <div className="text-content">
           <h1>👋🏻 Hi, I am</h1>
