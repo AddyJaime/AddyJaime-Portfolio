@@ -38,6 +38,7 @@ ProjectCard.propTypes = {
   imageUrl: PropTypes.string.isRequired,
   githubUrl: PropTypes.string.isRequired,
   liveDemoUrl: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
 };
 
 const Projects = () => {
@@ -71,10 +72,9 @@ const Projects = () => {
 
   return (
     <div className="projects-section">
-      <div className="portafolio-name">
-        <h1>Portafolio</h1>
-      </div>
+      <div className="portafolio-name"></div>
       <div className="projects-grid">
+        {/* <h1>Portafolio</h1> */}
         {projectData.map((project, index) => (
           <ProjectCard
             key={index}

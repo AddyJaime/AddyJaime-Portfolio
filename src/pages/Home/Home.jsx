@@ -6,7 +6,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import imageprof from "../../assets/images/profile-pic.jpeg";
+import imageprof from "../../../src/assets/images/7e5f9680-fc90-459c-927b-3b6725aed139.jpg";
 
 const Home = () => {
   return (
@@ -30,10 +30,6 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/addyjaime/">
               <FontAwesomeIcon className="linkedin-icon" icon={faLinkedin} />
             </a>
-          </div>
-          <div className="buttons">
-            <button>Resume</button>
-            <button>Contact</button>
           </div>
         </div>
         <div className="addy-photo">
