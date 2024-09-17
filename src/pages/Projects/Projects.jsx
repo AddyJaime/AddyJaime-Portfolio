@@ -42,6 +42,7 @@ ProjectCard.propTypes = {
 };
 
 const Projects = () => {
+  // TODO: add project data into mocks
   const projectData = [
     {
       title: "Cofounder-Matcher",
@@ -72,12 +73,10 @@ const Projects = () => {
 
   return (
     <div className="projects-section">
-      <div className="portafolio-name"></div>
       <div className="projects-grid">
-        {/* <h1>Portafolio</h1> */}
         {projectData.map((project, index) => (
           <ProjectCard
-            key={index}
+            key={index + "-project"}
             title={project.title}
             description={project.description}
             imageUrl={project.imageUrl}

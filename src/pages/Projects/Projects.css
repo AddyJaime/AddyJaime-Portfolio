@@ -1,5 +1,5 @@
 #projects {
-  background-color: red !important;
+  scroll-margin-top: 220px;
 }
 
 .projects-section {
@@ -8,8 +8,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  scroll-margin-top: 200px;
-  background-color: red !important;
+  scroll-margin-top: 190px;
 }
 
 .projects-grid {
@@ -19,17 +18,18 @@
   gap: 20px;
   margin-top: 20px;
   width: 100%;
-  background-color: rgba(0, 0, 255, 0.246);
 }
 
 .project-card {
   max-width: 450px;
+
   margin-bottom: 40px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.471);
   border-radius: 15px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .project-card:hover {
@@ -39,7 +39,7 @@
 
 .project-image {
   width: 100%;
-  height: 350px;
+  height: 270px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

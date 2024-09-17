@@ -13,7 +13,7 @@ const Home = () => {
     <section id="home" className="home-section">
       <div className="home-content">
         <div className="text-content">
-          <h1>👋🏻 Hi, I am</h1>
+          <h1> Hi there 👋🏻, I am</h1>
           <h2>Addy Jaime</h2>
           <h3>🚀 Software Enginner | Full Stack Developer</h3>
           <p className="description">
@@ -21,7 +21,8 @@ const Home = () => {
             people love to use. Based in DE <br />, USA. 📍
           </p>
           <div className="social-icons">
-            <a href="https://www.instagram.com/addyjaime_/">
+            {/* later renderizar this with a map and array of objects */}
+            <a target="_blank" href="https://www.instagram.com/addyjaime_/">
               <FontAwesomeIcon className="ig-icon" icon={faInstagramSquare} />
             </a>
             <a href="https://github.com/AddyJaime">
