@@ -88,12 +88,6 @@ const About = () => {
 
         <div className="about-description">
           <h3>More about me</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sit iure
-            nam earum recusandae quidem minima impedit omnis deleniti distinctio
-            quae, fuga accusamus hic accusantium culpa sed eaque voluptatum?
-            Aut.
-          </p>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sit iure
@@ -101,12 +95,8 @@ const About = () => {
             quae, fuga accusamus hic accusantium culpa sed eaque voluptatum?
             Aut.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sit iure
-            nam earum recusandae quidem minima impedit omnis deleniti distinctio
-            quae, fuga accusamus hic accusantium culpa sed eaque voluptatum?
-            Aut.
-          </p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
           <div className="social-icons">
             <a href="https://www.instagram.com/addyjaime_/">

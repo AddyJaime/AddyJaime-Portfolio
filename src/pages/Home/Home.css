@@ -101,6 +101,7 @@
 @media screen and (max-width: 430px) {
   .home-section {
     padding: 0 1rem;
+    margin-bottom: -120px;
   }
 
   .home-content {
@@ -133,7 +134,7 @@
 
   .addy-photo {
     order: -1;
-    margin-top: 80px;
+    margin-top: -80px;
   }
 
   .addy-photo img {
@@ -151,7 +152,7 @@
   .social-icons .ig-icon,
   .social-icons .github-icon,
   .social-icons .linkedin-icon {
-    font-size: 36px;
+    font-size: 45px;
   }
 
   .buttons {
@@ -172,7 +173,7 @@
   }
 
   .addy-photo {
-    margin-top: 140px;
+    margin-top: 50px;
   }
 
   .addy-photo img {

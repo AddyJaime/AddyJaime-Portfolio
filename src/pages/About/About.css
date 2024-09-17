@@ -80,6 +80,7 @@ p {
 @media screen and (max-width: 430px) {
   #about {
     margin-top: -50px;
+    margin-bottom: 300px;
   }
   .about-content {
     display: flex;
@@ -87,7 +88,7 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-right: 30px;
     box-sizing: border-box;
   }
@@ -98,7 +99,7 @@ p {
   }
   .about-skills h3 {
     font-size: 1.2rem;
-    margin-top: -1.5rem;
+    margin-top: -1.2rem;
     font-weight: bold;
   }
   .about-skills,
@@ -110,6 +111,13 @@ p {
     box-sizing: border-box;
   }
 
+  .about-description p {
+    font-size: 0.9rem;
+  }
+
+  .about-description h3 {
+    margin-top: -0.9rem;
+  }
   .icons {
     display: flex;
     justify-content: space-evenly;
@@ -129,5 +137,32 @@ p {
 
   p {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-left: 23px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+
+  .about-me-title p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .about-skills,
+  .about-description {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
   }
 }
