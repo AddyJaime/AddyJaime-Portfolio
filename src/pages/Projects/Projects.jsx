@@ -8,6 +8,7 @@ const ProjectCard = ({
   imageUrl,
   githubUrl,
   liveDemoUrl,
+  desktopOnly,
 }) => {
   return (
     <div id="projects" className="project-card">
@@ -26,6 +27,9 @@ const ProjectCard = ({
               Live Site
             </a>
           </div>
+          {desktopOnly && (
+            <p className="desktop-only-note">Available on desktop only</p>
+          )}
         </div>
       </div>
     </div>
@@ -39,6 +43,7 @@ ProjectCard.propTypes = {
   githubUrl: PropTypes.string.isRequired,
   liveDemoUrl: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
+  desktopOnly: PropTypes.string.isRequired,
 };
 
 const Projects = () => {
@@ -51,6 +56,7 @@ const Projects = () => {
       githubUrl:
         "https://github.com/AddyJaime/cohorty-frontend?tab=readme-ov-file",
       liveDemoUrl: "https://cofounder-matcher.vercel.app/",
+      desktopOnly: false,
     },
     {
       title: "Cohorty",
@@ -59,6 +65,7 @@ const Projects = () => {
       imageUrl: "/cohorty.jpg",
       githubUrl: "https://github.com/your-repo2",
       liveDemoUrl: "https://your-live-demo2.com",
+      desktopOnly: true,
     },
     {
       title: "DicciApp",
@@ -67,6 +74,7 @@ const Projects = () => {
       imageUrl: "/bc23e5a4-dcf1-4f50-94d9-aa143a840cc7.jpg",
       githubUrl: "https://github.com/AddyJaime/DicciApp",
       liveDemoUrl: "https://your-live-demo3.com",
+      desktopOnly: true,
     },
   ];
 
