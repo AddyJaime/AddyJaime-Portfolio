@@ -43,7 +43,7 @@ ProjectCard.propTypes = {
   githubUrl: PropTypes.string.isRequired,
   liveDemoUrl: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
-  desktopOnly: PropTypes.string.isRequired,
+  desktopOnly: PropTypes.bool.isRequired,
 };
 
 const Projects = () => {
