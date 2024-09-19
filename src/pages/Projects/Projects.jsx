@@ -2,6 +2,8 @@ import "./Projects.css";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { isMobile } from "react-device-detect";
+
 const ProjectCard = ({
   title,
   description,
@@ -12,24 +14,29 @@ const ProjectCard = ({
 }) => {
   return (
     <div id="projects" className="project-card">
-      <h1>&lsquo;🚀 What I&apos;ve Built</h1>
+      <h1>🚀 What I&apos;ve Built</h1>
       <img src={imageUrl} alt={title} className="project-image" />
       <div className="project-info">
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="projects-buttons">
           <div className="btn-container">
-            <a href={githubUrl} className="btn github-btn">
-              Code
-              <FontAwesomeIcon className="github-icon" icon={faGithub} />
-            </a>
-            <a href={liveDemoUrl} className="btn demo-btn">
-              Live Site
-            </a>
+            {desktopOnly && isMobile ? (
+              <p className="desktop-only-warning">
+                This project is only available on desktop.
+              </p>
+            ) : (
+              <>
+                <a href={githubUrl} className="btn github-btn">
+                  Code
+                  <FontAwesomeIcon className="github-icon" icon={faGithub} />
+                </a>
+                <a href={liveDemoUrl} className="btn demo-btn">
+                  Live Site
+                </a>
+              </>
+            )}
           </div>
-          {desktopOnly && (
-            <p className="desktop-only-note">Available on desktop only</p>
-          )}
         </div>
       </div>
     </div>
@@ -42,7 +49,6 @@ ProjectCard.propTypes = {
   imageUrl: PropTypes.string.isRequired,
   githubUrl: PropTypes.string.isRequired,
   liveDemoUrl: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired,
   desktopOnly: PropTypes.bool.isRequired,
 };
 
@@ -56,7 +62,7 @@ const Projects = () => {
       githubUrl:
         "https://github.com/AddyJaime/cohorty-frontend?tab=readme-ov-file",
       liveDemoUrl: "https://cofounder-matcher.vercel.app/",
-      desktopOnly: true,
+      desktopOnly: false,
     },
     {
       title: "Cohorty",
@@ -89,6 +95,7 @@ const Projects = () => {
             imageUrl={project.imageUrl}
             githubUrl={project.githubUrl}
             liveDemoUrl={project.liveDemoUrl}
+            desktopOnly={project.desktopOnly}
           />
         ))}
       </div>

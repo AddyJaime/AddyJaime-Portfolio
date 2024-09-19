@@ -84,10 +84,11 @@
   font-size: 27.2px;
 }
 
-.desktop-only-note {
-  font-size: 12px;
+.desktop-only-warning {
   color: #ff6b6b;
-  margin-top: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
 }
 
 @media screen and (max-width: 430px) {
