@@ -56,7 +56,7 @@ const Projects = () => {
       githubUrl:
         "https://github.com/AddyJaime/cohorty-frontend?tab=readme-ov-file",
       liveDemoUrl: "https://cofounder-matcher.vercel.app/",
-      desktopOnly: false,
+      desktopOnly: true,
     },
     {
       title: "Cohorty",
