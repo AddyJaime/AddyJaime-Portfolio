@@ -47,7 +47,7 @@ const Projects = () => {
       title: "Cofounder-Matcher",
       description:
         "Great things happen when great minds come together, This is an application to enable students to connect with other people on their campuses.",
-      imageUrl: "../../../public/cofoundermatcher.jpg",
+      imageUrl: "/cofoundermatcher.jpg",
       githubUrl:
         "https://github.com/AddyJaime/cohorty-frontend?tab=readme-ov-file",
       liveDemoUrl: "https://cofounder-matcher.vercel.app/",
@@ -56,7 +56,7 @@ const Projects = () => {
       title: "Cohorty",
       description:
         "Cohorty is a modern web application designed to facilitate the tracking of courses, students, and assignments for General Assembly.",
-      imageUrl: "../../../public/cohorty.jpg",
+      imageUrl: "/cohorty.jpg",
       githubUrl: "https://github.com/your-repo2",
       liveDemoUrl: "https://your-live-demo2.com",
     },
@@ -64,7 +64,7 @@ const Projects = () => {
       title: "DicciApp",
       description:
         "DicciApp is a dictionary application that lets you easily find, add, and remove your favorite words. Whether you love words or just want to learn more. ",
-      imageUrl: "../../../public/bc23e5a4-dcf1-4f50-94d9-aa143a840cc7.jpg",
+      imageUrl: "/bc23e5a4-dcf1-4f50-94d9-aa143a840cc7.jpg",
       githubUrl: "https://github.com/AddyJaime/DicciApp",
       liveDemoUrl: "https://your-live-demo3.com",
     },
