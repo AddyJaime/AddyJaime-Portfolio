@@ -42,7 +42,6 @@ ProjectCard.propTypes = {
 };
 
 const Projects = () => {
-  // TODO: add project data into mocks
   const projectData = [
     {
       title: "Cofounder-Matcher",

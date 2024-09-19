@@ -13,13 +13,6 @@ import DockerIcon from "../../assets/images/icons8-docker.svg";
 import DjangoIcon from "../../assets/images/icons8-django.svg";
 import TypeScriptIcon from "../../assets/images/icons8-typescript.svg";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagramSquare,
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-
 const About = () => {
   return (
     <div id="about" className="about-section">
@@ -88,27 +81,24 @@ const About = () => {
 
         <div className="about-description">
           <h3>More about me</h3>
-
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sit iure
-            nam earum recusandae quidem minima impedit omnis deleniti distinctio
-            quae, fuga accusamus hic accusantium culpa sed eaque voluptatum?
-            Aut.
+            I am passionate about software development 💻 because I love
+            creating applications that provide real value to users. I focus on
+            designing experiences that are both functional and enjoyable. When
+            I’m not programming, I like to stay active through workouts 🏋️‍♂️ or
+            exploring new places 🌍. Balancing the mental challenges of software
+            development with physical activity helps me stay focused and
+            energized.
           </p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-          <div className="social-icons">
-            <a href="https://www.instagram.com/addyjaime_/">
-              <FontAwesomeIcon className="ig-icon" icon={faInstagramSquare} />
-            </a>
-            <a href="https://github.com/AddyJaime">
-              <FontAwesomeIcon className="github-icon" icon={faGithub} />
-            </a>
-            <a href="https://www.linkedin.com/in/addyjaime/">
-              <FontAwesomeIcon className="linkedin-icon" icon={faLinkedin} />
-            </a>
-          </div>
+          <p>
+            In my free time, I enjoy exploring new technologies 🔎and writing
+            code.💻 I&apos;m constantly driven by the idea that there is always
+            something new to learn and improve. A fun fact about me is that I
+            speak three languages—French 🇫🇷, English 🇺🇸, and Spanish 🇩🇴. I also
+            love reading adventure and history books, which allow me to
+            disconnect and fuel my curiosity about the world.
+          </p>
         </div>
       </div>
     </div>
