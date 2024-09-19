@@ -17,6 +17,7 @@ body {
   color: #264653;
   font-family: Arial, sans-serif;
   font-size: 16px;
+  cursor: pointer;
 }
 
 @keyframes moveStars {

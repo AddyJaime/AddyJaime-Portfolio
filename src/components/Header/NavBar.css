@@ -47,37 +47,46 @@
 @media screen and (max-width: 430px) {
   .navbar {
     justify-content: space-around;
-    padding-left: -100px;
-  }
-
-  .navbar-name-title h1 {
-    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
   }
 
   .navbar-links {
-    display: none;
-    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: #444;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 1000;
   }
 
   .navbar-links.open {
     display: flex;
-    margin-top: 10px;
   }
 
   .navbar-links a {
-    padding: 15px;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
     width: 100%;
-    text-align: left;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .navbar-toggle {
     display: block;
+    position: relative;
+    z-index: 1001;
   }
 
   .navbar-toggle-icon {
     font-size: 30px;
+    color: white;
   }
 }

@@ -11,8 +11,8 @@ const ProjectCard = ({
 }) => {
   return (
     <div id="projects" className="project-card">
+      <h1>&lsquo;🚀 What I&apos;ve Built</h1>
       <img src={imageUrl} alt={title} className="project-image" />
-
       <div className="project-info">
         <h3>{title}</h3>
         <p>{description}</p>
@@ -47,7 +47,7 @@ const Projects = () => {
     {
       title: "Cofounder-Matcher",
       description:
-        "Great things happen when great minds come together, This is an application to enable students to find and connect with other people on their campuses that are also interested in founding or working on a new business.",
+        "Great things happen when great minds come together, This is an application to enable students to connect with other people on their campuses.",
       imageUrl: "../../../public/cofoundermatcher.jpg",
       githubUrl:
         "https://github.com/AddyJaime/cohorty-frontend?tab=readme-ov-file",
