@@ -70,7 +70,7 @@ const Projects = () => {
         "Cohorty is a modern web application designed to facilitate the tracking of courses, students, and assignments for General Assembly.",
       imageUrl: "/cohorty.jpg",
       githubUrl: "https://github.com/your-repo2",
-      liveDemoUrl: "https://your-live-demo2.com",
+      liveDemoUrl: "https://cohorty.webdevstuff.ninja/",
       desktopOnly: true,
     },
     {
@@ -79,7 +79,7 @@ const Projects = () => {
         "DicciApp is a dictionary application that lets you easily find, add, and remove your favorite words. Whether you love words or just want to learn more. ",
       imageUrl: "/bc23e5a4-dcf1-4f50-94d9-aa143a840cc7.jpg",
       githubUrl: "https://github.com/AddyJaime/DicciApp",
-      liveDemoUrl: "https://your-live-demo3.com",
+      liveDemoUrl: "https://dicciapp-addyjaime.netlify.app/",
       desktopOnly: true,
     },
   ];
