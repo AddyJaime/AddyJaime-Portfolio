@@ -65,12 +65,12 @@ const Projects = () => {
       desktopOnly: false,
     },
     {
-      title: "Cohorty",
+      title: "Typing-Blitz",
       description:
-        "Cohorty is a modern web application designed to facilitate the tracking of courses, students, and assignments for General Assembly.",
-      imageUrl: "/cohorty.jpg",
-      githubUrl: "https://github.com/your-repo2",
-      liveDemoUrl: "https://cohorty.webdevstuff.ninja/",
+        "Typing Blitz is a skill-testing game designed to measure typing speed and accuracy. Players are tasked with typing a paragraph within a 60-second time limit.  ",
+      imageUrl: "./Typing-Blitz.jpg",
+      githubUrl: "https://github.com/AddyJaime/Typing-Blitz",
+      liveDemoUrl: "https://typing-blitz-addyjaime.netlify.app/",
       desktopOnly: true,
     },
     {
