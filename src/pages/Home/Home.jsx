@@ -21,14 +21,13 @@ const Home = () => {
             people love to use. Based in DE <br />, USA. 📍
           </p>
           <div className="social-icons">
-            {/* later renderizar this with a map and array of objects */}
-            <a target="_blank" href="https://www.instagram.com/addyjaime_/">
+            <a target="_blank" href="https://www.instagram.com/addyjaime.dev">
               <FontAwesomeIcon className="ig-icon" icon={faInstagramSquare} />
             </a>
-            <a href="https://github.com/AddyJaime">
+            <a target="_blank" href="https://github.com/AddyJaime">
               <FontAwesomeIcon className="github-icon" icon={faGithub} />
             </a>
-            <a href="https://www.linkedin.com/in/addyjaime/">
+            <a target="_blank" href="https://www.linkedin.com/in/addyjaime/">
               <FontAwesomeIcon className="linkedin-icon" icon={faLinkedin} />
             </a>
           </div>
