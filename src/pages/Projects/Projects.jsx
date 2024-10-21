@@ -61,7 +61,7 @@ const Projects = () => {
       title: "GredyKent-Barbershop",
       description:
         "Gredy Kent Barbershop is a professional barbershop offering high-quality grooming services, including haircuts, beard trims, and styling for men.",
-      imageUrl: "../../../public/gredykentphoto.jpg",
+      imageUrl: "./gredykentphoto.jpg",
       githubUrl: "https://github.com/AddyJaime/GredykentBarberFrontend",
       liveDemoUrl: "https://gredykent-barbershop.vercel.app/",
       desktopOnly: false,

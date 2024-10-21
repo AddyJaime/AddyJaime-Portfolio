@@ -133,6 +133,11 @@
   .btn-container a {
     font-size: 10px;
   }
+
+  .customMessage {
+    color: red;
+    font-size: 7px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -159,5 +164,9 @@
 
   .project-info h3 {
     font-size: 18px;
+  }
+  .customMessage {
+    color: red;
+    font-size: 8px;
   }
 }
