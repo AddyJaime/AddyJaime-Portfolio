@@ -11,7 +11,6 @@ const ProjectCard = ({
   githubUrl,
   liveDemoUrl,
   desktopOnly,
-  customMessage,
 }) => {
   return (
     <div id="projects" className="project-card">
@@ -20,7 +19,7 @@ const ProjectCard = ({
       <div className="project-info">
         <h3>{title}</h3>
         <p>{description}</p>
-        {customMessage && <p className="customMessage">{customMessage}</p>}
+
         <div className="projects-buttons">
           <div className="btn-container">
             {desktopOnly && isMobile ? (
@@ -52,7 +51,6 @@ ProjectCard.propTypes = {
   githubUrl: PropTypes.string.isRequired,
   liveDemoUrl: PropTypes.string.isRequired,
   desktopOnly: PropTypes.bool.isRequired,
-  customMessage: PropTypes.string,
 };
 
 const Projects = () => {
@@ -65,8 +63,6 @@ const Projects = () => {
       githubUrl: "https://github.com/AddyJaime/GredykentBarberFrontend",
       liveDemoUrl: "https://gredykent-barbershop.vercel.app/",
       desktopOnly: false,
-      customMessage:
-        "This app is still being developed, with some features not yet functional. It works best on phones, and desktop functionality is in progress. Expected to be fully ready by November 1st.",
     },
 
     {

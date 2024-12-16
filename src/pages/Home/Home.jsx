@@ -15,10 +15,10 @@ const Home = () => {
         <div className="text-content">
           <h1> Hi there 👋🏻, I am</h1>
           <h2>Addy Jaime</h2>
-          <h3>🚀 Software Enginner | Full Stack Developer</h3>
+          <h3>🚀JavaScript Full Stack Developer | Web and Mobile</h3>
           <p className="description">
-            A passionate Full Stack Developer who helps create web apps that
-            people love to use. Based in DE <br />, USA. 📍
+            A passionate JavaScript Full Stack Developer who helps create web
+            and Mobile apps that people love to use. Based in MD <br />, USA. 📍
           </p>
           <div className="social-icons">
             <a target="_blank" href="https://www.instagram.com/addyjaime.dev">
