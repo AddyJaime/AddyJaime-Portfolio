@@ -56,16 +56,6 @@ ProjectCard.propTypes = {
 const Projects = () => {
   const projectData = [
     {
-      title: "GredyKent-Barbershop",
-      description:
-        "Gredy Kent Barbershop is a professional barbershop offering high-quality grooming services, including haircuts, beard trims, and styling for men.",
-      imageUrl: "./gredykentphoto.jpg",
-      githubUrl: "https://github.com/AddyJaime/GredykentBarberFrontend",
-      liveDemoUrl: "https://gredykent-barbershop.vercel.app/",
-      desktopOnly: false,
-    },
-
-    {
       title: "Cofounder-Matcher",
       description:
         "Great things happen when great minds come together, This is an application to enable students to connect with other people on their campuses.",
@@ -75,14 +65,15 @@ const Projects = () => {
       liveDemoUrl: "https://cofounder-matcher.vercel.app/",
       desktopOnly: false,
     },
+
     {
-      title: "Typing-Blitz",
+      title: "GredyKent-Barbershop",
       description:
-        "Typing Blitz is a skill-testing game designed to measure typing speed and accuracy. Players are tasked with typing a paragraph within a 60-second time limit.  ",
-      imageUrl: "./Typing-Blitz.jpg",
-      githubUrl: "https://github.com/AddyJaime/Typing-Blitz",
-      liveDemoUrl: "https://typing-blitz-addyjaime.netlify.app/",
-      desktopOnly: true,
+        "Gredy Kent Barbershop is a professional barbershop offering high-quality grooming services, including haircuts, beard trims, and styling for men.",
+      imageUrl: "./gredykentphoto.jpg",
+      githubUrl: "https://github.com/AddyJaime/GredykentBarberFrontend",
+      liveDemoUrl: "https://gredykent-barbershop.vercel.app/",
+      desktopOnly: false,
     },
     {
       title: "DicciApp",
